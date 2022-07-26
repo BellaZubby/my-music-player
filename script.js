@@ -65,8 +65,8 @@ function pauseSong(){
 function loadSong(song) {
     title.textContent = song.displayName;
     artist.textContent = song.artist;
-    music.src = `/songs/${song.name}.mp3`;
-    image.src = `/Album-cover/${song.name}.avif`;
+    music.src = `songs/${song.name}.mp3`;
+    image.src = `Album-cover/${song.name}.avif`;
 }
 
 // current song
